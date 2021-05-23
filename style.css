@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size:30px;
+    /* border: solid 1px red; */
+    
+}
+
+header{
+    background-color: black;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   align-items: center;
+   color: white;
+}
+
+ .nav-Var ,ul {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 70%; 
+    position: relative;
+    right: 30px;
+}
+
+.btn{
+    background-color: cyan;
+    color: white;
+    box-shadow:blue 1px 1px;
+    
+}
+
+
+.container1{
+    width: inherit;
+    margin-top: 30px;
+    position: absolute;
+    left: 50px; 
+}
+.container1 img{
+    height: 25px;
+}
+p{
+    padding-left:  30px;
+    padding-right: 20px;
+}
+
+.userpic{
+    background-color: teal;
+}
+
+.userpic img{
+    position: relative;
+    top: 50px;
+    left: 25px;
+    height: 90px;
+}
+
+.box1{
+    width: inherit;
+    padding-top: 50px;
+    border-left: solid 4px grey;
+    border-right: solid 4px grey;
+    border-bottom: solid 4px grey;
+}
+
+h2{
+    color: white;
+    padding-left: 1em;
+    padding-top: 20px;
+}
+.box2{
+    width: inherit;
+    margin-top: 50px;
+}
+
+#dec{
+    color: darkgrey;
+}
+
+.container2{
+    position: absolute;
+    left: 1200px;
+    width: 400px;
+}
+
+.box3{
+    width: inherit;
+    margin-top: 50px;
+}
+
+
+.box4{
+    width: inherit;
+    margin-top: 50px;
+}
+
+img{
+    height: 60px;
+}
+#check {
+    height: 30px;
+   padding-left: 30px;
+}
+#view{
+    border-top: solid 5px grey;
+    height: 55px;
+}
+
+#num1{
+position:relative;
+bottom:10px;
+right: 15px;
+background-color: white;    
+border: solid 5px white;
+border-radius: 50%;
+color: grey;
+font-size: 20px;
+}
+
+#num2{
+position:relative;
+bottom:8px;
+right: 10px;
+background-color: white;    
+border: solid 2px white;
+border-radius: 50%;
+color: grey;
+font-size: 20px;
+}
+
+.boarder{
+    background-color: black;
+   
+}
+
+.content{
+border-left: solid 4px grey;
+border-right: solid 4px grey;
+border-bottom: solid 4px grey;
+}
